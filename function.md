@@ -4,9 +4,9 @@
 
 ## Commands:
 
-**(R1, Delay:2)**: testfor @e[type=item, tag=summontrap]
+**(R1, Delay: 2)**: testfor @e[type=item, tag=summontrap]
 
-**(R2, Execute on 1st: False, Delay:10)**: execute @e[type=item, tag=summontrap, c=1] ~ ~ ~ summon armor_stand "sTrap" ~ ~ ~
+**(R2, Execute on 1st: False, Delay: 10)**: execute @e[type=item, tag=summontrap, c=1] ~ ~ ~ summon armor_stand "sTrap" ~ ~ ~
 
 **(C1)**: execute @e[type=item, tag=summontrap] ~ ~ ~ effect @e[type=armor_stand, name=sTrap, tag=, r=1] invisibility 100000000 2 true
 
