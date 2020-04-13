@@ -9,3 +9,4 @@ Legends:\
 R = Repeating command block\
 C = Chain command block\
 < > ^ v = Comparator (The point is where the comparator is facing)
+I = Item Frame
