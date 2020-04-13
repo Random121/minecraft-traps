@@ -6,7 +6,7 @@
 
 **(R1, Delay: 2)**: execute @e[type=item, name="Trap Jammer"] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, r=15] add deltrap
 
-**(C1)**: execute @e[type=armor_stand, tag=deltrap] ~ ~ ~ particle minecraft:splash_spell_emitter ~ ~ ~
+**(C1)**: execute @e[type=armor_stand, tag=deltrap] ~ ~ ~ particle minecraft:rising_border_dust_particle ~ ~1 ~
 
 **(C2)**: kill @e[type=armor_stand, tag=deltrap]
 
