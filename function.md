@@ -17,5 +17,3 @@
 **(C4)**: execute @e[type=armor_stand, name=sTrap, tag=, c=1] ~ ~ ~ playsound random.anvil_land @a[r=10]
 
 **(C4)**: execute @e[type=item, tag=summontrap] ~ ~ ~ title @p actionbar §aTrap has been successfully deployed
-
-
