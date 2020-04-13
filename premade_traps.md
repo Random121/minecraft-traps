@@ -68,3 +68,20 @@
 
 **(C5, C):** tag @a[tag=mineactive] remove mineactive
 
+**_Bear Trap:_**
+
+**(R1):** tag @e[type=item, name="Trap Capsule (Bear)", tag=, c=1] add summontrap
+
+**(C1):** execute @e[type=item, name="Trap Capsule (Bear)"] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] add beartrap
+
+**(C2, C):** kill @e[type=item, name="Trap Capsule (Bear)", tag=summontrap, c=1]
+
+**(R2):** execute @e[type=armor_stand, name=sTrap, tag=beartrap] ~ ~ ~ tag @a[r=1.25] add bearactive
+
+**(C3, C):** execute @a[tag=bearactive] ~ ~ ~ kill @e[type=armor_stand, name=sTrap, tag=beartrap, r=1.25, c=1]
+
+**(C4, C):** playsound mob.blaze.hit @a[tag=bearactive]
+
+**(C5, C):** kill @a[tag=bearactive]
+
+**(C6):** tag @a[tag=bearactive] remove bearactive
