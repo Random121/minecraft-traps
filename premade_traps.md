@@ -20,26 +20,18 @@
 (R1)(C1)(C2)\
 (R2)(C3)(C4)(C5)(C6)(C7)(C8)
 
-**_Remote Mine (Buggy):_**\
-(R1)(C1)(C2)(C3)\
-(R2)(C4)\
-(I, Item: fireworkscharge (Name:Activate Mine)) <== Located on C1
-
 ## Commands:
 
 **Note:**
 1. Delays on repeating command blocks are 4
-2. C = Conditional
-3. Unless told all command blocks are unconditional
-4. Remote Mine C2 requires coordinate of item frame with item
 
 **_Geyser Trap:_**
 
-**(R1):** tag @e[type=item, name="Trap Capsule (Geyser)", tag=, c=1] add summontrap
+**(R1):** tag @e[type=endermite, name="Trap Capsule (Geyser)", tag=, c=1] add summontrap
 
-**(C1):** execute @e[type=item, name="Trap Capsule (Geyser)"] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] add geysertrap
+**(C1):** execute @e[type=endermite, name="Trap Capsule (Geyser)"] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] add geysertrap
 
-**(C2, C):** kill @e[type=item, name="Trap Capsule (Geyser)", tag=summontrap, c=1]
+**(C2, C):** /execute @e[type=armor_stand, name=sTrap, tag=geysertrap] ~ ~ ~ kill @e[type=endermite, name="Trap Capsule (Geyser)", tag=summontrap, c=1]
 
 **(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=geysertrap] ~ ~ ~ tag @a[r=3] add geyseractive
 
@@ -55,11 +47,11 @@
 
 **_Mine Trap:_**
 
-**(R1):** tag @e[type=item, name="Trap Capsule (Mine)", tag=, c=1] add summontrap
+**(R1):** tag @e[type=endermite, name="Trap Capsule (Mine)", tag=, c=1] add summontrap
 
-**(C1):** execute @e[type=item, name="Trap Capsule (Mine)"] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] add minetrap
+**(C1):** execute @e[type=endermite, name="Trap Capsule (Mine)"] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] add minetrap
 
-**(C2, C):** kill @e[type=item, name="Trap Capsule (Mine)", tag=summontrap, c=1]
+**(C2, C):** /execute @e[type=armor_stand, name=sTrap, tag=minetrap] ~ ~ ~ kill @e[type=endermite, name="Trap Capsule (Mine)", tag=summontrap, c=1]
 
 **(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=minetrap] ~ ~ ~ tag @a[r=2] add mineactive
 
@@ -71,11 +63,11 @@
 
 **_Bear Trap:_**
 
-**(R1):** tag @e[type=item, name="Trap Capsule (Bear)", tag=, c=1] add summontrap
+**(R1):** tag @e[type=endermite, name="Trap Capsule (Bear)", tag=, c=1] add summontrap
 
-**(C1):** execute @e[type=item, name="Trap Capsule (Bear)"] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] add beartrap
+**(C1):** execute @e[type=endermite, name="Trap Capsule (Bear)"] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] add beartrap
 
-**(C2, C):** kill @e[type=item, name="Trap Capsule (Bear)", tag=summontrap, c=1]
+**(C2, C):** /execute @e[type=armor_stand, name=sTrap, tag=beartrap] ~ ~ ~ kill @e[type=endermite, name="Trap Capsule (Bear)", tag=summontrap, c=1]
 
 **(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=beartrap] ~ ~ ~ tag @a[r=1.5] add bearactive
 
@@ -91,11 +83,11 @@
 
 **_Smite Trap:_**
 
-**(R1):** tag @e[type=item, name="Trap Capsule (Smite)", tag=, c=1] add summontrap
+**(R1):** tag @e[type=endermite, name="Trap Capsule (Smite)", tag=, c=1] add summontrap
 
-**(C1):** execute @e[type=item, name="Trap Capsule (Smite)", tag=summontrap] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] add smitetrap
+**(C1):** execute @e[type=endermite, name="Trap Capsule (Smite)", tag=summontrap] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] add smitetrap
 
-**(C2, C):** kill @e[type=item, name="Trap Capsule (Smite)", tag=summontrap, c=1]
+**(C2, C):** /execute @e[type=armor_stand, name=sTrap, tag=smitetrap] ~ ~ ~ kill @e[type=endermite, name="Trap Capsule (Smite)", tag=summontrap, c=1]
 
 **(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=smitetrap] ~ ~ ~ tag @a[r=2.25] add smiteactive
 
@@ -111,11 +103,11 @@
 
 **_Frost Trap:_**
 
-**(R1):** tag @e[type=item, name="Trap Capsule (Frost)", tag=, c=1] add summontrap
+**(R1):** tag @e[type=endermite, name="Trap Capsule (Frost)", tag=, c=1] add summontrap
 
-**(C1):** execute @e[type=item, name="Trap Capsule (Frost)"] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] add frosttrap
+**(C1):** execute @e[type=endermite, name="Trap Capsule (Frost)"] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] add frosttrap
 
-**(C2, C):** kill @e[type=item, name="Trap Capsule (Frost)", tag=summontrap, c=1]
+**(C2, C):** kill @e[type=endermite, name="Trap Capsule (Frost)", tag=summontrap, c=1]
 
 **(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=frosttrap] ~ ~ ~ tag @a[r=3] add frostactive
 
@@ -130,17 +122,3 @@
 **(C7):** playsound random.glass @a[tag=frostactive]
 
 **(C8):** tag @a[tag=frostactive] remove frostactive
-
-**_Remote Mine (Buggy):_**
-
-**(R1):** tag @e[type=item, name="Trap Capsule (Remote Mine)", tag=, c=1] add summontrap
-
-**(C1):** execute @e[type=item, name="Trap Capsule (Remote Mine)"] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] add remotetrap
-
-**(C2, C):** execute @e[type=item, name="Trap Capsule (Remote Mine)"] ~ ~ ~ execute @p ~ ~ ~ clone x y z x y z ~ ~1 ~
-
-**(C3, C):** kill @e[type=item, name="Trap Capsule (Remote Mine)", tag=summontrap, c=1]
-
-**(R2):** execute @e[type=item, name="Activate Mine"] ~ ~ ~ execute @e[type=armor_stand, name=sTrap, tag=remotetrap, rm=6, r=50, c=1] ~ ~ ~ summon ender_crystal ~ ~ ~ minecraft:crystal_explode
-
-**(C4, C):** kill @e[type=item, name="Activate Mine", c=1]
