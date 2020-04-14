@@ -111,11 +111,11 @@
 
 **_Frost Trap:_**
 
-**(R1):** tag @e[type=item, name="Trap Capsule (Froat)", tag=, c=1] add summontrap
+**(R1):** tag @e[type=item, name="Trap Capsule (Frost)", tag=, c=1] add summontrap
 
-**(C1):** execute @e[type=item, name="Trap Capsule (Froat)"] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] add frosttrap
+**(C1):** execute @e[type=item, name="Trap Capsule (Frost)"] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] add frosttrap
 
-**(C2, C):** kill @e[type=item, name="Trap Capsule (Froat)", tag=summontrap, c=1]
+**(C2, C):** kill @e[type=item, name="Trap Capsule (Frost)", tag=summontrap, c=1]
 
 **(R2):** execute @e[type=armor_stand, name=sTrap, tag=frosttrap] ~ ~ ~ tag @a[r=1.75] add frostactive
 
