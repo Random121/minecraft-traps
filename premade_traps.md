@@ -51,7 +51,7 @@
 
 **(C6):** effect @a[tag=geyseractive] levitation 1 25 true
 
-**(C7, C):** tag @a[tag=geyseractive] remove levactive
+**(C7, C):** tag @a[tag=geyseractive] remove geyseractive
 
 **_Mine Trap:_**
 
