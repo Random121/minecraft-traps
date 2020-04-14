@@ -8,7 +8,7 @@
 
 **(C1)**: execute @e[type=armor_stand, tag=deltrap] ~ ~ ~ particle minecraft:rising_border_dust_particle ~ ~1 ~
 
-**(C2)**: execute @e[type=item, name="Trap Jammer"] ~ ~ ~ title @p actionbar §eFound and Jammed All Nearby Traps
+**(C2)**: execute @e[type=item, name="Trap Jammer"] ~ ~ ~ title @p actionbar §eFound And Jammed All Nearby Traps
 
 **(C3)**: kill @e[type=armor_stand, tag=deltrap]
 
