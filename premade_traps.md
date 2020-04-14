@@ -28,7 +28,7 @@
 ## Commands:
 
 **Note:**
-1. Delays on repeating command blocks are 2
+1. Delays on repeating command blocks are 4
 2. C = Conditional
 3. Unless told all command blocks are unconditional
 4. Remote Mine C2 requires coordinate of item frame with item
