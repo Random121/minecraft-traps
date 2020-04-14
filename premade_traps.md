@@ -20,9 +20,9 @@
 (R1)(C1)(C2)\
 (R2)(C3)(C4)(C5)(C6)(C7)(C8)
 
-**_Remote Mine (Buggy):_**
-(R1)(C1)(C2)\
-(R2)(C3)\
+**_Remote Mine (Buggy):_**\
+(R1)(C1)(C2)(C3)\
+(R2)(C4)\
 (I, Item: fireworkscharge (Name:Activate Mine)) <== Located on C1
 
 ## Commands:
@@ -85,3 +85,59 @@
 **(C5, C):** kill @a[tag=bearactive]
 
 **(C6):** tag @a[tag=bearactive] remove bearactive
+
+**_Smite Trap:_**
+
+**(R1):** tag @e[type=item, name="Trap Capsule (Smite)", tag=, c=1] add summontrap
+
+**(C1):** execute @e[type=item, name="Trap Capsule (Smite)", tag=summontrap] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] add smitetrap
+
+**(C2, C):** kill @e[type=item, name="Trap Capsule (Smite)", tag=summontrap, c=1]
+
+**(R2):** execute @e[type=armor_stand, name=sTrap, tag=smitetrap] ~ ~ ~ tag @a[r=1.75] add smiteactive
+
+**(C3, C):** execute @a[tag=thunderactive] ~ ~ ~ kill @e[type=armor_stand, name=trap, tag=thundertrap, r=2, c=1]
+
+**(C4, C):** execute @a[tag=smiteactive] ~ ~ ~ summon lightning_bolt ~ ~ ~
+
+**(C5, C):** effect @a[tag=smiteactive] blindness 10 255 true
+
+**(C6, C):** effect @a[tag=smiteactive] wither 3 10 true
+
+**(C7, C):** tag @a[tag=smiteactive] remove smiteactive
+
+**_Frost Trap:_**
+
+**(R1):** tag @e[type=item, name="Trap Capsule (Froat)", tag=, c=1] add summontrap
+
+**(C1):** execute @e[type=item, name="Trap Capsule (Froat)"] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] add frosttrap
+
+**(C2, C):** kill @e[type=item, name="Trap Capsule (Froat)", tag=summontrap, c=1]
+
+**(R2):** execute @e[type=armor_stand, name=sTrap, tag=frosttrap] ~ ~ ~ tag @a[r=1.75] add frostactive
+
+**(C3, C):** execute @a[tag=frostactive] ~ ~ ~ kill @e[type=armor_stand, name=sTrap, tag=frosttrap, r=1.75, c=1]
+
+**(C4, C):** effect @a[tag=frostactive] slowness 30 5 true
+
+**(C5, C):** effect @a[tag=iceactive] mining_fatigue 30 2 true
+
+**(C6, C):** execute @a[tag=frostactive] ~ ~ ~ /fill ~-1 ~-1 ~-1 ~1 ~2 ~1 packed_ice 0 keep
+
+**(C7):** playsound random.glass @a[tag=frostactive]
+
+**(C8):** tag @a[tag=frostactive] remove frostactive
+
+**_Remote Mine (Buggy):_**
+
+**(R1):** tag @e[type=item, name="Trap Capsule (Remote Mine)", tag=, c=1] add summontrap
+
+**(C1):** execute @e[type=item, name="Trap Capsule (Remote Mine)"] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] add remotetrap
+
+**(C2, C):** execute @e[type=item, name="Trap Capsule (Remote Mine)"] ~ ~ ~ execute @p ~ ~ ~ clone x y z x y z ~ ~1 ~
+
+**(C3, C):** kill @e[type=item, name="Trap Capsule (Remote Mine)", tag=summontrap, c=1]
+
+**(R2):** execute @e[type=item, name="Activate Mine"] ~ ~ ~ execute @e[type=armor_stand, name=sTrap, tag=remotetrap, rm=6, r=50, c=1] ~ ~ ~ summon ender_crystal ~ ~ ~ minecraft:crystal_explode
+
+**(C4, C):** kill @e[type=item, name="Activate Mine", c=1]
