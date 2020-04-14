@@ -99,7 +99,7 @@
 
 **(R2):** execute @e[type=armor_stand, name=sTrap, tag=smitetrap] ~ ~ ~ tag @a[r=1.75] add smiteactive
 
-**(C3, C):** execute @a[tag=thunderactive] ~ ~ ~ kill @e[type=armor_stand, name=sTrap, tag=thundertrap, r=2, c=1]
+**(C3, C):** execute @a[tag=smiteactive] ~ ~ ~ kill @e[type=armor_stand, name=sTrap, tag=smitetrap, r=2, c=1]
 
 **(C4, C):** execute @a[tag=smiteactive] ~ ~ ~ summon lightning_bolt ~ ~ ~
 
