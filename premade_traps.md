@@ -51,7 +51,7 @@
 
 **(C6):** effect @a[tag=geyseractive] levitation 1 25 true
 
-**(C7, C):** tag @a[tag=geyseractive] remove geyseractive
+**(C7):** tag @a[tag=geyseractive] remove geyseractive
 
 **_Mine Trap:_**
 
@@ -67,7 +67,7 @@
 
 **(C4, C):** execute @a[tag=mineactive] ~ ~ ~ summon ender_crystal ~ ~ ~ minecraft:crystal_explode
 
-**(C5, C):** tag @a[tag=mineactive] remove mineactive
+**(C5):** tag @a[tag=mineactive] remove mineactive
 
 **_Bear Trap:_**
 
@@ -107,7 +107,7 @@
 
 **(C6, C):** effect @a[tag=smiteactive] wither 3 10 true
 
-**(C7, C):** tag @a[tag=smiteactive] remove smiteactive
+**(C7):** tag @a[tag=smiteactive] remove smiteactive
 
 **_Frost Trap:_**
 
