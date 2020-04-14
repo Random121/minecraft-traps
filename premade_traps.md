@@ -41,9 +41,9 @@
 
 **(C2, C):** kill @e[type=item, name="Trap Capsule (Geyser)", tag=summontrap, c=1]
 
-**(R2):** execute @e[type=armor_stand, name=sTrap, tag=geysertrap] ~ ~ ~ tag @a[r=2.25] add geyseractive
+**(R2):** execute @e[type=armor_stand, name=sTrap, tag=geysertrap] ~ ~ ~ tag @a[r=2] add geyseractive
 
-**(C3, C):** execute @a[tag=geyseractive] ~ ~ ~ kill @e[type=armor_stand, name=sTrap, tag=geysertrap, r=2.25, c=1]
+**(C3, C):** execute @a[tag=geyseractive] ~ ~ ~ kill @e[type=armor_stand, name=sTrap, tag=geysertrap, r=2, c=1]
 
 **(C4):** playsound mob.wither.shoot @a[tag=geyseractive]
 
