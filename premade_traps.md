@@ -41,9 +41,9 @@
 
 **(C2, C):** kill @e[type=item, name="Trap Capsule (Geyser)", tag=summontrap, c=1]
 
-**(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=geysertrap] ~ ~ ~ tag @a[r=2] add geyseractive
+**(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=geysertrap] ~ ~ ~ tag @a[r=3] add geyseractive
 
-**(C3, C):** execute @a[tag=geyseractive] ~ ~ ~ kill @e[type=armor_stand, name=sTrap, tag=geysertrap, r=2, c=1]
+**(C3, C):** execute @a[tag=geyseractive] ~ ~ ~ kill @e[type=armor_stand, name=sTrap, tag=geysertrap, r=3, c=1]
 
 **(C4):** playsound mob.wither.shoot @a[tag=geyseractive]
 
@@ -61,9 +61,9 @@
 
 **(C2, C):** kill @e[type=item, name="Trap Capsule (Mine)", tag=summontrap, c=1]
 
-**(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=minetrap] ~ ~ ~ tag @a[r=1.5] add mineactive
+**(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=minetrap] ~ ~ ~ tag @a[r=2] add mineactive
 
-**(C3, C):** execute @a[tag=mineactive] ~ ~ ~ kill @e[type=armor_stand, name=sTrap, tag=minetrap, r=1.5, c=1]
+**(C3, C):** execute @a[tag=mineactive] ~ ~ ~ kill @e[type=armor_stand, name=sTrap, tag=minetrap, r=2, c=1]
 
 **(C4, C):** execute @a[tag=mineactive] ~ ~ ~ summon ender_crystal ~ ~ ~ minecraft:crystal_explode
 
@@ -77,9 +77,9 @@
 
 **(C2, C):** kill @e[type=item, name="Trap Capsule (Bear)", tag=summontrap, c=1]
 
-**(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=beartrap] ~ ~ ~ tag @a[r=1.25] add bearactive
+**(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=beartrap] ~ ~ ~ tag @a[r=1.5] add bearactive
 
-**(C3, C):** execute @a[tag=bearactive] ~ ~ ~ kill @e[type=armor_stand, name=sTrap, tag=beartrap, r=1.25, c=1]
+**(C3, C):** execute @a[tag=bearactive] ~ ~ ~ kill @e[type=armor_stand, name=sTrap, tag=beartrap, r=1.5, c=1]
 
 **(C4, C):** execute @a[tag=bearactive] ~ ~ ~ summon evocation_fang ~ ~ ~
 
@@ -97,9 +97,9 @@
 
 **(C2, C):** kill @e[type=item, name="Trap Capsule (Smite)", tag=summontrap, c=1]
 
-**(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=smitetrap] ~ ~ ~ tag @a[r=1.75] add smiteactive
+**(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=smitetrap] ~ ~ ~ tag @a[r=2.25] add smiteactive
 
-**(C3, C):** execute @a[tag=smiteactive] ~ ~ ~ kill @e[type=armor_stand, name=sTrap, tag=smitetrap, r=2, c=1]
+**(C3, C):** execute @a[tag=smiteactive] ~ ~ ~ kill @e[type=armor_stand, name=sTrap, tag=smitetrap, r=2.25, c=1]
 
 **(C4, C):** execute @a[tag=smiteactive] ~ ~ ~ summon lightning_bolt ~ ~ ~
 
@@ -117,9 +117,9 @@
 
 **(C2, C):** kill @e[type=item, name="Trap Capsule (Frost)", tag=summontrap, c=1]
 
-**(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=frosttrap] ~ ~ ~ tag @a[r=1.75] add frostactive
+**(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=frosttrap] ~ ~ ~ tag @a[r=3] add frostactive
 
-**(C3, C):** execute @a[tag=frostactive] ~ ~ ~ kill @e[type=armor_stand, name=sTrap, tag=frosttrap, r=1.75, c=1]
+**(C3, C):** execute @a[tag=frostactive] ~ ~ ~ kill @e[type=armor_stand, name=sTrap, tag=frosttrap, r=3, c=1]
 
 **(C4, C):** effect @a[tag=frostactive] slowness 30 5 true
 
