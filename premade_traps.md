@@ -43,7 +43,7 @@
 
 **(R2):** execute @e[type=armor_stand, name=sTrap, tag=geysertrap] ~ ~ ~ tag @a[r=2.25] add geyseractive
 
-**(C3, C):** execute @a[tag=levactive] ~ ~ ~ kill @e[type=armor_stand, name=trap, tag=levitate, r=2.25, c=1]
+**(C3, C):** execute @a[tag=geyseractive] ~ ~ ~ kill @e[type=armor_stand, name=sTrap, tag=geysertrap, r=2.25, c=1]
 
 **(C4):** playsound mob.wither.shoot @a[tag=geyseractive]
 
