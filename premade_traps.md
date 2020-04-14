@@ -107,7 +107,7 @@
 
 **(C1):** execute @e[type=endermite, name="Trap Capsule (Frost)"] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] add frosttrap
 
-**(C2, C):** kill @e[type=endermite, name="Trap Capsule (Frost)", tag=summontrap, c=1]
+**(C2, C):** execute @e[type=armor_stand, name=sTrap, tag=frosttrap] ~ ~ ~ kill @e[type=endermite, name="Trap Capsule (Frost)", tag=summontrap, c=1]
 
 **(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=frosttrap] ~ ~ ~ tag @a[r=3] add frostactive
 
