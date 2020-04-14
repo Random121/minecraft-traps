@@ -10,7 +10,7 @@
 
 ## Commands:
 **Note:**
-1. create scoreboard named "traptimer"
+1. create scoreboard named "traparmtimer"
 
 **_Summon Trap:_**
 
@@ -20,7 +20,7 @@
 
 **(C2, C):** execute @e[type=endermite, tag=summontrap] ~ ~ ~ effect @e[type=armor_stand, name=sTrap, tag=, r=1] fire_resistance 100000000 2 true
 
-**(C3, C):** execute @e[type=endermite, tag=summontrap] ~ ~ ~ scoreboard players set @e[type=armor_stand, name=sTrap, tag=, c=1] traptimer 20
+**(C3, C):** execute @e[type=endermite, tag=summontrap] ~ ~ ~ scoreboard players set @e[type=armor_stand, name=sTrap, tag=, c=1] traparmtimer 20
 
 **(C4, C):** execute @e[type=armor_stand, name=sTrap, tag=] ~ ~ ~ title @a[r=10] actionbar §aThe Trap Has Been Deployed And Will Arm In §c4 §aSeconds
 
@@ -30,12 +30,12 @@
 
 **_Safety Time:_**
 
-**(R1, Delay: 4):** scoreboard players remove @e[type=armor_stand, name=sTrap, scores={traptimer=1..}] traptimer 1
+**(R1, Delay: 4):** scoreboard players remove @e[type=armor_stand, name=sTrap, scores={traparmtimer=1..}] traparmtimer 1
 
-**(C1, C):** tag @e[type=armor_stand, name=sTrap, scores={traptimer=..0}] add traparmed
+**(C1, C):** tag @e[type=armor_stand, name=sTrap, scores={traparmtimer=..0}] add traparmed
 
-**(C2, C):** execute @e[type=armor_stand, name=sTrap, scores={traptimer=..0}] ~ ~ ~ title @a[r=10] actionbar §cThe trap has been armed
+**(C2, C):** execute @e[type=armor_stand, name=sTrap, scores={traparmtimer=..0}] ~ ~ ~ title @a[r=10] actionbar §cThe trap has been armed
 
-**(C3, C):** execute @e[type=armor_stand, name=sTrap, scores={traptimer=..0}] ~ ~ ~ playsound block.false_permissions @a[r=10]
+**(C3, C):** execute @e[type=armor_stand, name=sTrap, scores={traparmtimer=..0}] ~ ~ ~ playsound block.false_permissions @a[r=10]
 
-**(C4, C):** scoreboard players reset @e[type=armor_stand, name=sTrap, tag=traparmed] traptimer
+**(C4, C):** scoreboard players reset @e[type=armor_stand, name=sTrap, tag=traparmed] traparmtimer
