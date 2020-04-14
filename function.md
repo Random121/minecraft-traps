@@ -22,7 +22,7 @@
 
 **(C3, C):** execute @e[type=endermite, tag=summontrap] ~ ~ ~ scoreboard players set @e[type=armor_stand, name=sTrap, tag=, c=1] traptimer 20
 
-**(C4, C):** execute @e[type=armor_stand, name=sTrap, tag=] ~ ~ ~ title @a[r=10] actionbar §aThe Trap Has Been Deployed and Will Arm In §c4 §aSeconds
+**(C4, C):** execute @e[type=armor_stand, name=sTrap, tag=] ~ ~ ~ title @a[r=10] actionbar §aThe Trap Has Been Deployed And Will Arm In §c4 §aSeconds
 
 **(C5, C):** execute @e[type=armor_stand, name=sTrap, tag=, c=1] ~ ~ ~ playsound random.anvil_land @a[r=10]
 
