@@ -33,9 +33,9 @@
 
 **(C2, C):** /execute @e[type=armor_stand, name=sTrap, tag=geysertrap] ~ ~ ~ kill @e[type=endermite, name="Trap Capsule (Geyser)", tag=summontrap, c=1]
 
-**(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=geysertrap] ~ ~ ~ tag @a[r=3] add geyseractive
+**(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=geysertrap] ~ ~ ~ tag @a[r=4] add geyseractive
 
-**(C3, C):** execute @a[tag=geyseractive] ~ ~ ~ kill @e[type=armor_stand, name=sTrap, tag=geysertrap, r=3, c=1]
+**(C3, C):** execute @a[tag=geyseractive] ~ ~ ~ kill @e[type=armor_stand, name=sTrap, tag=geysertrap, r=4, c=1]
 
 **(C4):** playsound mob.wither.shoot @a[tag=geyseractive]
 
@@ -89,9 +89,9 @@
 
 **(C2, C):** /execute @e[type=armor_stand, name=sTrap, tag=smitetrap] ~ ~ ~ kill @e[type=endermite, name="Trap Capsule (Smite)", tag=summontrap, c=1]
 
-**(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=smitetrap] ~ ~ ~ tag @a[r=2.25] add smiteactive
+**(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=smitetrap] ~ ~ ~ tag @a[r=3] add smiteactive
 
-**(C3, C):** execute @a[tag=smiteactive] ~ ~ ~ kill @e[type=armor_stand, name=sTrap, tag=smitetrap, r=2.25, c=1]
+**(C3, C):** execute @a[tag=smiteactive] ~ ~ ~ kill @e[type=armor_stand, name=sTrap, tag=smitetrap, r=3, c=1]
 
 **(C4, C):** execute @a[tag=smiteactive] ~ ~ ~ summon lightning_bolt ~ ~ ~
 
