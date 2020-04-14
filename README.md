@@ -11,6 +11,6 @@ C = Chain command block\
 < > ^ v = Comparator (The point is where the comparator is facing)\
 I = Item Frame
 \
-Note:\
-1. C = Conditional\
+Note:
+1. C = Conditional
 2. Unless told all command blocks are unconditional
