@@ -26,9 +26,9 @@
 
 **(C4):** execute @e[type=armor_stand, name=sTrap, tag=, c=1] ~ ~ ~ playsound random.anvil_land @a[r=10]
 
-**(C5):** execute @e[type=item, tag=summontrap] ~ ~ ~ title @p actionbar  §aThe trap has been deployed and will arm in §c3 §asecond
+**(C5):** execute @e[type=item, tag=summontrap] ~ ~ ~ title @p actionbar  §aThe trap has been deployed and will arm in §c4 §asecond
 
-**(C6):** execute @e[type=item, tag=summontrap] ~ ~ ~ scoreboard players set @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] traptimer 15
+**(C6):** execute @e[type=item, tag=summontrap] ~ ~ ~ scoreboard players set @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] traptimer 20
 
 **_Safety Time:_**
 
