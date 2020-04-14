@@ -81,11 +81,13 @@
 
 **(C3, C):** execute @a[tag=bearactive] ~ ~ ~ kill @e[type=armor_stand, name=sTrap, tag=beartrap, r=1.25, c=1]
 
-**(C4, C):** playsound mob.blaze.hit @a[tag=bearactive]
+**(C4, C):** execute @a[tag=bearactive] ~ ~ ~ summon evocation_fang ~ ~ ~
 
-**(C5, C):** kill @a[tag=bearactive]
+**(C5, C):** playsound mob.blaze.hit @a[tag=bearactive]
 
-**(C6):** tag @a[tag=bearactive] remove bearactive
+**(C6, C):** kill @a[tag=bearactive]
+
+**(C7):** tag @a[tag=bearactive] remove bearactive
 
 **_Smite Trap:_**
 
