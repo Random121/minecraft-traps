@@ -1,6 +1,5 @@
 # Minecraft Command Trap
 **Includes:**\
--Format file to make new spells\
 -5 Traps\
 -Trap deletion spell\
 -MANDATORY functions for spells\
