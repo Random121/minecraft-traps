@@ -123,7 +123,7 @@
 
 **(C4, C):** effect @a[tag=frostactive] slowness 30 5 true
 
-**(C5, C):** effect @a[tag=iceactive] mining_fatigue 30 2 true
+**(C5, C):** effect @a[tag=frostactive] mining_fatigue 30 2 true
 
 **(C6, C):** execute @a[tag=frostactive] ~ ~ ~ /fill ~-1 ~-1 ~-1 ~1 ~2 ~1 packed_ice 0 keep
 
