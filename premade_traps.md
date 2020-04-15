@@ -31,7 +31,7 @@
 
 **(C1):** execute @e[type=endermite, name="Trap Capsule (Geyser)"] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] add geysertrap
 
-**(C2, C):** execute @e[type=armor_stand, name=sTrap, tag=geysertrap] ~ ~ ~ kill @e[type=endermite, name="Trap Capsule (Geyser)", tag=summontrap, c=1]
+**(C2, C):** execute @e[type=armor_stand, name=sTrap, tag=geysertrap] ~ ~ ~ kill @e[type=endermite, name="Trap Capsule (Geyser)", tag=summontrap, r=1, c=1]
 
 **(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=geysertrap] ~ ~ ~ tag @a[r=4] add geyseractive
 
@@ -51,7 +51,7 @@
 
 **(C1):** execute @e[type=endermite, name="Trap Capsule (Mine)"] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] add minetrap
 
-**(C2, C):** execute @e[type=armor_stand, name=sTrap, tag=minetrap] ~ ~ ~ kill @e[type=endermite, name="Trap Capsule (Mine)", tag=summontrap, c=1]
+**(C2, C):** execute @e[type=armor_stand, name=sTrap, tag=minetrap] ~ ~ ~ kill @e[type=endermite, name="Trap Capsule (Mine)", tag=summontrap, r=1, c=1]
 
 **(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=minetrap] ~ ~ ~ tag @a[r=2] add mineactive
 
@@ -67,7 +67,7 @@
 
 **(C1):** execute @e[type=endermite, name="Trap Capsule (Bear)"] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] add beartrap
 
-**(C2, C):** execute @e[type=armor_stand, name=sTrap, tag=beartrap] ~ ~ ~ kill @e[type=endermite, name="Trap Capsule (Bear)", tag=summontrap, c=1]
+**(C2, C):** execute @e[type=armor_stand, name=sTrap, tag=beartrap] ~ ~ ~ kill @e[type=endermite, name="Trap Capsule (Bear)", tag=summontrap, r=1, c=1]
 
 **(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=beartrap] ~ ~ ~ tag @a[r=1.5] add bearactive
 
@@ -87,7 +87,7 @@
 
 **(C1):** execute @e[type=endermite, name="Trap Capsule (Smite)", tag=summontrap] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] add smitetrap
 
-**(C2, C):** execute @e[type=armor_stand, name=sTrap, tag=smitetrap] ~ ~ ~ kill @e[type=endermite, name="Trap Capsule (Smite)", tag=summontrap, c=1]
+**(C2, C):** execute @e[type=armor_stand, name=sTrap, tag=smitetrap] ~ ~ ~ kill @e[type=endermite, name="Trap Capsule (Smite)", tag=summontrap, r=1, c=1]
 
 **(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=smitetrap] ~ ~ ~ tag @a[r=3] add smiteactive
 
@@ -107,7 +107,7 @@
 
 **(C1):** execute @e[type=endermite, name="Trap Capsule (Frost)"] ~ ~ ~ tag @e[type=armor_stand, name=sTrap, tag=, r=1, c=1] add frosttrap
 
-**(C2, C):** execute @e[type=armor_stand, name=sTrap, tag=frosttrap] ~ ~ ~ kill @e[type=endermite, name="Trap Capsule (Frost)", tag=summontrap, c=1]
+**(C2, C):** execute @e[type=armor_stand, name=sTrap, tag=frosttrap] ~ ~ ~ kill @e[type=endermite, name="Trap Capsule (Frost)", tag=summontrap, r=1, c=1]
 
 **(R2):** execute @e[type=armor_stand, name=sTrap, tag=traparmed, tag=frosttrap] ~ ~ ~ tag @a[r=3] add frostactive
 
