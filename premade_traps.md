@@ -22,7 +22,7 @@
 
 ## Items:
 
-**_Note:_** Item used must be a renamed "Spawn Bat" egg
+**Note:** Item used must be a renamed "Spawn Bat" egg
 
 **_Geyser Trap:_** Trap Capsule (Geyser)
 
