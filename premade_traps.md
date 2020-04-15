@@ -20,6 +20,20 @@
 (R1)(C1)(C2)\
 (R2)(C3)(C4)(C5)(C6)(C7)(C8)
 
+## Items:
+
+**_Note:_** Item used must be a renamed "Spawn Bat" egg
+
+**_Geyser Trap:_** Trap Capsule (Geyser)
+
+**_Mine Trap:_** Trap Capsule (Mine)
+
+**_Bear Trap:_** Trap Capsule (Bear)
+
+**_Smite Trap:_** Trap Capsule (Smite)
+
+**_Frost Trap:_** Trap Capsule (Frost)
+
 ## Commands:
 
 **Note:**
