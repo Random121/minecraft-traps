@@ -10,7 +10,7 @@ C = Chain command block (Chained command blocks are always linked together in th
 \
 **Note:**
 1. C = Conditional
-2. Unless told all command blocks are unconditional
+2. Unless told all command blocks are unconditional\
 \
 **Scoreboard Needed:**\
 1.traparmtimer
