@@ -9,8 +9,6 @@
 (R1)(C1)(C2)(C3)(C4)
 
 ## Commands:
-**Note:**
-1. create scoreboard named "traparmtimer"
 
 **_Summon Trap:_**
 
