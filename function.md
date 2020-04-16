@@ -12,7 +12,7 @@
 
 **_Summon Trap:_**
 
-**(R1, Delay: 2):** execute @e[type=endermite, tag=summontrap, c=1] ~ ~ ~ summon armor_stand "sTrap" ~ ~ ~
+**(R1, Delay: 4):** execute @e[type=endermite, tag=summontrap, c=1] ~ ~ ~ summon armor_stand "sTrap" ~ ~ ~
 
 **(C1, C):** execute @e[type=endermite, tag=summontrap] ~ ~ ~ effect @e[type=armor_stand, name=sTrap, tag=, r=1] invisibility 100000000 2 true
 
